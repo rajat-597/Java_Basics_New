@@ -21,7 +21,7 @@ public class PaliandromeString {
 //            System.out.println("The Given String is a paliandrome");
 //        else
 //            System.out.println("The Given String is not a paliandrome");
-
+        System.out.println( str.length()-1); // 3 noon
         boolean ispaliandrom = true;
         for(int i = 0 , j = str.length()-1; i<j; i++, j--){
             if(str.charAt(i) == str.charAt(j)){
