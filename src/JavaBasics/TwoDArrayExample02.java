@@ -11,6 +11,7 @@ public class TwoDArrayExample02 {
                     max = a[i][j];
 
             }
+            System.out.println("Hello");
             System.out.println("sum of row " + (i+1) + " : " + max);
         }
     }
